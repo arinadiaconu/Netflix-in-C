@@ -1,0 +1,34 @@
+DIACONU Arina - Ioana
+
+                    README
+
+    Proiectul este alcatuit din 5 fisiere sursa:
+
+        1 - ListeGenerice.c - contine implementarea de functii utilizand liste generice simplu inlantuite.
+        2 - Coada_lg.c - contine functii ce utilizeaza cozi implementate cu ajutorul listelor generice simplu inlantuite.
+        3 - Stiva_lg.c - contine functii ce utilizeaza stive implementate cu ajutorul listelor generice simplu inlantuite.
+        4 - Functii_seriale.c - contine operatii cu serialele.
+        5 - main.c - programul principal.
+
+    Implementare:
+        - cele 4 categorii de seriale sunt gestionate cu ajutorul unui vector de liste, denumit 'tabela de seriale', 
+    intrarea in vector corespunzand cu id-ul fiecarui serial;
+        - prelucrarea stivelor si a cozilor se face prin apelarea functiilor definite in fisierele corespunzatoare 
+    (initializare, inserare, extragere, eliberare de memorie);
+        - in functie de comanda primita, se insereaza un serial in tabela prin parcurgerea sa; se afiseaza o categorie, 
+    o stiva sau o coada; se cauta un serial si se adauga un sezon nou; se muta un serial sau se vizioneaza un serial.
+
+        - add - presupune retinerea datelor despre un serial, construit ca o coada de sezoane, iar fiecare sezon ca o coada 
+    de episoade. Dupa aceea se parcurge lista corespunzatoare id-ului serialului si se insereaza in lista.
+        - add_top - presupune retinerea datelor despre un serial, iar dupa aceea, se insereaza in lista corespunzatoare id-ului 
+    4 din tabela. Dupa inserare, se reseteaza pozitiile primelor 10 seriale din top, iar in cazul in care au iesit seriale din top,
+    se elibereaza memoria pentru acestea.
+        - add_sez - presupune cautarea serialului pentru care se adauga un sezon in tabela. Daca nu a fost gasit, se cauta in coada 
+    watch_later, iar la final, daca inca nu a fost gasit, se cauta si in stiva currently_watching. Dupa ce este gasit, se adauga sezonul.
+        - later - presupune parcurgerea tabelei de seriale pentru a-l gasi pe cel cautat. Dupa ce este mutat, se retine un pointer la 
+    acea adresa pentru a putea elibera ulterior memoria.
+        - watch - presupune cautarea pe rand a unui serial atat in stiva currently_watching, cat si in coada watch_later si in tabela. 
+    Dupa ce este gasit, se muta in stiva currently_watching, daca nu este deja, se retine un pointer la acel serial pentru eliberarea 
+    ulterioara a memoriei, se vizioneaza numarul de minute, iar daca se vizioneaza integral, se muta in stiva history.
+        - show - presupune afisarea unei categorii din tabela, a unei stive sau a unei cozi prin utilizarea functiilor de prelucrare 
+    predefinite.

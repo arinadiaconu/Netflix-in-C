@@ -1,0 +1,9 @@
+add_top 1 AAA 8.5 1 1 60
+add_top 2 BBB 9.0 1 1 60
+add_top 3 CCC 8.2 1 1 60
+show top10
+later AAA
+show later
+show top10
+add_top 1 DDD 9.3 1 1 60
+show top10

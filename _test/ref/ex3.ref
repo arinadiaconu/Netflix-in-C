@@ -1,0 +1,9 @@
+Categoria top10: [(AAA, 8.5)].
+Categoria top10: [(AAA, 8.5), (BBB, 9.0)].
+Categoria top10: [(AAA, 8.5), (BBB, 9.0), (CCC, 8.2)].
+Categoria top10: [(AAA, 8.5), (BBB, 9.0), (CCC, 8.2)].
+Serialul AAA se afla in coada de asteptare pe pozitia 1.
+Categoria later: [(AAA, 8.5)].
+Categoria top10: [(BBB, 9.0), (CCC, 8.2)].
+Categoria top10: [(DDD, 9.3), (BBB, 9.0), (CCC, 8.2)].
+Categoria top10: [(DDD, 9.3), (BBB, 9.0), (CCC, 8.2)].

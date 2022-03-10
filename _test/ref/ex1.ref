@@ -1,0 +1,13 @@
+Serialul JAP a fost adaugat la pozitia 1.
+Serialul CAR a fost adaugat la pozitia 2.
+Serialul ITP a fost adaugat la pozitia 1.
+Categoria 1: [(JAP, 8.1), (CAR, 6.3)].
+Serialul HAR a fost adaugat la pozitia 1.
+Serialul QUE a fost adaugat la pozitia 2.
+Serialul DIR a fost adaugat la pozitia 1.
+Categoria 2: [(HAR, 9.4)].
+Serialul ARE a fost adaugat la pozitia 2.
+Serialul WAL a fost adaugat la pozitia 2.
+Serialul PUR a fost adaugat la pozitia 3.
+Categoria 2: [(HAR, 9.4), (ARE, 8.1), (PUR, 5.6)].
+Categoria 3: [(ITP, 9.9), (WAL, 5.4), (QUE, 2.6)].

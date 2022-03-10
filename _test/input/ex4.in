@@ -1,0 +1,16 @@
+add 1 IR 4 2 3 3 1 19 1 10
+show 1
+add_top 1 EB 2.8 2 2 16 15 1 18
+later IR
+show top10
+show later
+add_sez EB 3 3 23 23
+watch IR 38
+show later
+show watching
+show history
+watch EB 54
+show 1
+show top10
+show watching
+show history
