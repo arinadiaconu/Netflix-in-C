@@ -28,9 +28,9 @@ DIACONU Arina - Ioana
     Dupa ce este gasit, se adauga sezonul.
         - later - presupune parcurgerea tabelei de seriale pentru a-l gasi pe cel cautat. Dupa ce este mutat, se 
     retine un pointer la acea adresa pentru a putea elibera ulterior memoria.
-        - watch - presupune cautarea pe rand a unui serial atat in stiva currently_watching, cat si in coada watch_later 
-    si in tabela. Dupa ce este gasit, se muta in stiva currently_watching, daca nu este deja, se retine un pointer la 
-    acel serial pentru eliberarea ulterioara a memoriei, se vizioneaza numarul de minute, iar daca se vizioneaza integral,
-    se muta in stiva history.
+        - watch - presupune cautarea pe rand a unui serial atat in stiva currently_watching, cat si in coada 
+    watch_later si in tabela. Dupa ce este gasit, se muta in stiva currently_watching, daca nu este deja, se retine un
+    pointer la acel serial pentru eliberarea ulterioara a memoriei, se vizioneaza numarul de minute, iar daca se vizioneaza
+    integral, se muta in stiva history.
         - show - presupune afisarea unei categorii din tabela, a unei stive sau a unei cozi prin utilizarea functiilor de
     prelucrare predefinite.
